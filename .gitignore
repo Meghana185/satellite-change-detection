@@ -1,0 +1,22 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Data and Models
+data/
+models/
+*.pth
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Sample images might be kept or ignored, but it's okay to keep small samples.
+# However, let's ignore large generated plots
+confusion_matrix.png
